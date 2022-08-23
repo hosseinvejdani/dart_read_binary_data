@@ -1,20 +1,20 @@
 // typedef struct // LoggerData_t
 // {
-// 	int16_t Header;
+//    int16_t Header;
 
-// 	uint32_t time;
-// 	int32_t imu[6];
-// 	// int16_t Magnet[3];
-// 	int8_t GpsFlag;
+//    uint32_t time;
+//    int32_t imu[6];
+//    // int16_t Magnet[3];
+//    int8_t GpsFlag;
 
-// 	int32_t Pos[3];
-// 	int16_t Vel[3];
-// 	int16_t Att[3];
-// 	// int16_t AttU[3];
-// 	int16_t GyroBias[3];
-// 	int16_t AccelBias[3];
+//    int32_t Pos[3];
+//    int16_t Vel[3];
+//    int16_t Att[3];
+//    // int16_t AttU[3];
+//    int16_t GyroBias[3];
+//    int16_t AccelBias[3];
 
-// 	uint8_t sum;
+//    uint8_t sum;
 // } LoggerData_t;
 // #pragma pack()
 
