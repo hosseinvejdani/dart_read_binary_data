@@ -59,6 +59,9 @@ class SensorData {
   //-----------
 
   factory SensorData.fillFromPacket(Uint8List packet) {
+    //============================================================
+    // ========= this is little endian mode ======================
+    //============================================================
     // Int16 header;
     // Uint32 time;
     // Int32List imu; // size 6
